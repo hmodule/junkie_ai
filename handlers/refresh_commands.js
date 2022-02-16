@@ -6,8 +6,8 @@ const fs = require( 'fs' );
 module.exports = ( junkie, Client ) =>
 {
     const commands = [];
-    CLIENT_ID = '943369072874258443';
-    GUILD_ID = '677014314523033620';
+    CLIENT_ID = '943403414228959252';
+    GUILD_ID = '770900870568345610';
 
     const command_folders = fs.readdirSync( './commands' );
 
