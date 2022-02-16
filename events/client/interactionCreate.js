@@ -15,5 +15,5 @@ module.exports =
             console.error( e );
             await interaction.reply( { content: `failed to exec \`${ interaction.commandName }\``, ephemeral: true } );
         }
-    }
-}
+    },
+};

@@ -5,5 +5,5 @@ module.exports =
     execute()
     {
         console.log( 'online!' );
-    }
-}
+    },
+};

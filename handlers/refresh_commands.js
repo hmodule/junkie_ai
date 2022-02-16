@@ -19,8 +19,8 @@ module.exports = ( junkie, Client ) =>
         {
             const command = require( `../commands/${ folder }/${ file }` );
             commands.push( command.data.toJSON() );
-        }
-    }
+        };
+    };
 
     const rest = new REST( { version: '9' } ).setToken( process.env.CLIENT_TOKEN );
 
@@ -40,4 +40,4 @@ module.exports = ( junkie, Client ) =>
         }
 
     })();
-}
+};

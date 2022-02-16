@@ -23,7 +23,7 @@ module.exports = ( junkie, Client ) =>
         };
     
 
-    }
+    };
 
     [ 'client', 'guild' ].forEach( e => load_dir( e ) );
 };
