@@ -1,4 +1,4 @@
-const { SlashCommandBuilder } = require( '@discordjs/builders' );
+const { SlashCommandBuilder } = require( 'discord.js' );
 const { MessageEmbed } = require( 'discord.js' );
 const wait = require( 'util' ).promisify( setTimeout );
 const Amadeus = require( 'amadeus' );

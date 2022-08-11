@@ -18,12 +18,12 @@
   },
   "homepage": "https://github.com/hmodule/junkie_ai#readme",
   "dependencies": {
-    "@discordjs/builders": "^0.12.0",
     "@discordjs/rest": "^0.3.0",
     "amadeus": "^5.7.1",
     "discord-api-types": "^0.27.1",
-    "discord.js": "^13.6.0",
+    "discord.js": "^14.2.0",
     "dotenv": "^16.0.0",
+    "mongoose": "^6.5.2",
     "nodemon": "^2.0.15",
     "request": "^2.88.2"
   }

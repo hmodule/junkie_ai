@@ -1,7 +1,8 @@
-const { Client, Intents, Collection } = require( 'discord.js' );
+const { Client, GatewayIntentBits, Partials, Collection } = require('discord.js');
 require( 'dotenv' ).config();
 
-const junkie = new Client( { intents: [ Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES ], } );
+
+const junkie = new Client( { intents: [GatewayIntentBits.Guilds], partials: [Partials.Channel] } );
 
 junkie.commands = new Collection();
 
