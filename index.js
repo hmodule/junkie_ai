@@ -12,21 +12,4 @@ junkie.commands = new Collection();
 });
 
 
-const AutoGitUpdate = require('auto-git-update');
-
-const config = 
-{
-    repository: 'https://github.com/hmodule/junkie_ai',
-    fromReleases: false,
-    tempLocation: '/Users/kylehouk/Desktop/projects/junkie_ai',
-    ignoreFiles: ['util/config.js'],
-    executeOnComplete: 'NULL',
-    exitOnComplete: true
-};
-
-const updater = new AutoGitUpdate( config );
-
-updater.autoUpdate();
-
-
 junkie.login( process.env.CLIENT_TOKEN );
