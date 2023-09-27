@@ -12,6 +12,7 @@ module.exports = ( junkie ) =>
         {
             let command = require( `../commands/${ folder }/${ file }` );
             junkie.commands.set( command.data.name, command );
+            console.log( `loaded ${ command.data.name }` )
         };
     };
 };

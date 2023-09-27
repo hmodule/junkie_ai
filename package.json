@@ -1,6 +1,6 @@
 {
   "name": "junkie_ai",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -20,11 +20,13 @@
   "dependencies": {
     "@discordjs/rest": "^0.3.0",
     "amadeus": "^5.7.1",
+    "auto-git-update": "^2.1.2",
     "discord-api-types": "^0.27.1",
     "discord.js": "^14.2.0",
     "dotenv": "^16.0.0",
     "mongoose": "^6.5.2",
     "nodemon": "^2.0.15",
+    "openai": "^3.1.0",
     "request": "^2.88.2"
   }
 }
